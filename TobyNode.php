@@ -2,7 +2,7 @@
 
 namespace loque\staticTag;
 
-class Toby_Node extends Twig_Node
+class TobyNode extends Twig_Node
 {
     public function __construct($name, Twig_Node_Expression $value, $line, $tag = null)
     {

@@ -4,7 +4,7 @@ namespace loque\staticTag;
 
 use \Twig_TokenParser;
 
-class Toby_TokenParser extends Twig_TokenParser
+class TobyTokenParser extends Twig_TokenParser
 {
     public function parse(Twig_Token $token)
     {
