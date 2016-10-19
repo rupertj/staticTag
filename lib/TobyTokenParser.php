@@ -3,6 +3,7 @@
 namespace loque\staticTag;
 
 use \Twig_TokenParser;
+use \Twig_Token;
 
 class TobyTokenParser extends Twig_TokenParser
 {
@@ -16,7 +17,7 @@ class TobyTokenParser extends Twig_TokenParser
         $value = $parser->getExpressionParser()->parseExpression();
         $stream->expect(Twig_Token::BLOCK_END_TYPE);
 
-        return new Toby_Node($name, $value, $token->getLine(), $this->getTag());
+        return new TobyNode($name, $value, $token->getLine(), $this->getTag());
     }
 
     public function getTag()
