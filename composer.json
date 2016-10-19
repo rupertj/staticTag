@@ -1,0 +1,22 @@
+{
+    "name": "loque-/staticTag",
+    "type": "library",
+    "description": "Custom tag for twig",
+    "keywords": ["staticTag"],
+    "homepage": "https://github.com/loque-/staticTag",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thorbjon Brancher",
+            "email": "email@tobybrancher.net"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-0": {
+            "Loque\\staticTag": "lib/"
+        }
+    }
+}
