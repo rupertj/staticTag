@@ -1,6 +1,6 @@
 <?php
 
-namespace PatternLab\PatternEngine\Twig;
+namespace loque\staticTag;
 
 use \Twig_TokenParser;
 

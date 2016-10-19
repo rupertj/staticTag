@@ -1,6 +1,6 @@
 <?php
 
-namespace PatternLab\PatternEngine\Twig;
+namespace loque\staticTag;
 
 class Toby_Node extends Twig_Node
 {
