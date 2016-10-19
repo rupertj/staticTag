@@ -22,6 +22,6 @@ class TobyTokenParser extends Twig_TokenParser
 
     public function getTag()
     {
-        return 'toby';
+        return 'static';
     }
 }
