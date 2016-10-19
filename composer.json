@@ -1,5 +1,5 @@
 {
-    "name": "loque-/staticTag",
+    "name": "loque/staticTag",
     "type": "library",
     "description": "Custom tag for twig",
     "keywords": ["staticTag"],
