@@ -9,6 +9,10 @@
         {
             "name": "Thorbjon Brancher",
             "email": "email@tobybrancher.net"
+        },
+        {
+          "name": "Rupert Jabelman",
+          "email": "rupert@jabelman.org"
         }
     ],
     "require": {
